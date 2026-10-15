@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artisanat du Maroc</title>
+  <!-- Google Tag Manager: le premier snippet sera ajouté ici, juste après <head> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript): le deuxième snippet sera ajouté ici, juste après <body> -->
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#">Artisanat Maroc</a>
+      <a href="#catalogue">Catalogue</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Savoir-faire traditionnel</p>
+      <h1>L’artisanat marocain, une histoire à partager</h1>
+      <p>Découvrez des créations inspirées des traditions et du talent des artisans du Maroc.</p>
+      <button id="btn-devis" class="button" type="button">Demander un devis</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="catalogue">
+      <p class="eyebrow">Notre sélection</p>
+      <h2>Des pièces uniques</h2>
+      <div class="cards">
+        <article class="card"><div class="art art-1" aria-hidden="true">✦</div><h3>Céramique</h3><p>Des motifs et couleurs inspirés du patrimoine marocain.</p></article>
+        <article class="card"><div class="art art-2" aria-hidden="true">✺</div><h3>Tissage</h3><p>Des textures authentiques réalisées avec soin.</p></article>
+        <article class="card"><div class="art art-3" aria-hidden="true">❋</div><h3>Décoration</h3><p>Des objets décoratifs pour donner du caractère à votre intérieur.</p></article>
+      </div>
+      <p class="download"><a href="catalogue.pdf" download>Télécharger le catalogue PDF</a></p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">Parlons de votre projet</p>
+      <h2>Contactez-nous</h2>
+      <form id="form-contact">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="vous@exemple.com" required>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Décrivez votre demande" required></textarea>
+        <button class="button" type="submit">Envoyer le message</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer><p>© 2026 Artisanat Maroc — Projet pédagogique d’analyse des données web.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
